@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wang's Portfolio</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/portfolio/css/portfolio.css">
+    </head>
+    <body>
+        <div id="wrap">
+            <header id="header">
+                <div class="header_wrap">
+                    
+                        <ul class="menu">
+                            <li class="on"><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">SKILL</a></li>
+                            <li><a href="#">PROJECT</a></li>
+                        </ul>
+                    
+                        <a href="#"><img src="/portfolio/img/WJY.png" alt="wjy"></a>
+                
+                    <button>CONTACT ME!</button>
+                    <div class="sendmail">
+                        <div id="popupmove" class="popup">
+                            <i class="fa-solid fa-xmark close"></i>
+                            <i class="fa-solid fa-square-envelope mail"></i>
+                            <h1>Contact me!</h1>
+                            <h2>uuuka3459@naver.com</h2>
+                            <form id="contactForm" class="contactForm">
+                                <input type="hidden" name="contact_number">
+                                <input type="text" id="from_name" name="from_name" placeholder="이름">
+                                <input type="email" name="from_email" placeholder="연락가능한 이메일">
+                                <textarea name="message" placeholder="내용"></textarea>
+                                <input type="submit" value="전송">
+                                <input type="reset" value="초기화">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- header 끝 -->
+
+            <section class="section0 home">
+            
+                <div class="inner">
+                    <div class="txtb">
+                        <h3>안녕하세요! <span>'왕'</span> 반가워요!</h3>
+                        <p>저의 포트폴리오에 오신걸 환영합니다.
+                           <br>궁굼하신 점은 오른쪽 상단에 <span>CONTACT ME!</span> 버튼을 이용해 주세요 :)
+                        </p>
+                    </div>
+                </div>
+
+                <a href="#"><img src="/portfolio/img/me.png" alt="me"></a>
+                <!-- <h4 class="name">왕정연<br>WANG JEONG YEON</h4> -->
+            </section>
+
+            <!-- <div class="scroll">
+                <span>SCROLL</span>
+            </div> -->
+
+            <section class="section1 about">
+               <div class="container">
+                <div class="left">
+                    <div class="inner">
+                        <div class="txtb">
+                            <h2>Introduction</h2>
+                            <p class="birth">왕 정연 07 June 1999</p>
+                            <p class="produce">
+                                새로운 도전에 두려움을 느끼지 않고 즐거움을 느껴요.<br>
+                                원활한 의사소통 능력을 활용하여 협업할 수 있어요.<br>
+                                주어진 일을 수행하기 위해 최선을 다해요.<br>
+                                늘 멈춰있지않고 앞으로 나아가려고 노력해요.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="/portfolio/img/rabbit.png" alt="me2">
+                    <h2>만능 재주꾼 토끼띠!</h2>
+                </div>
+               </div>
+            </section>
+
+            <section class="section2 skill">
+
+                <div class="title">
+                    <h2>My skills</h2><span></span>
+                    
+                </div>
+
+            <div class="skill">
+                <div class="g">
+                    <img src="/portfolio/img/html.png" alt="">
+                    <div class="per">
+                        <span>Html</span>
+                        <p>70%</p>
+                    </div>
+                </div>
+                <div class="g">
+                    <img src="/portfolio/img/css.png" alt="">
+                    <div class="per">
+                        <span>css</span>
+                        <p>75%</p>
+                    </div>
+                </div>
+                <div class="g">
+                    <img src="/portfolio/img/javascript.png" alt="">
+                    <div class="per">
+                        <span>Javascript</span>
+                        <p>55%</p>
+                    </div>
+                </div>
+                <div class="g">
+                    <img src="/portfolio/img/jquery.png" alt="">
+                    <div class="per">
+                        <span>jQuery</span>
+                        <p>70%</p>
+                    </div>
+                </div>
+                <div class="g">
+                    <img src="/portfolio/img/figma.png" alt="">
+                    <div class="per">
+                        <span>Figma</span>
+                        <p>90%</p>
+                    </div>
+                </div>
+                <div class="g">
+                    <img src="/portfolio/img/photoshop.png" alt="">
+                    <div class="per">
+                        <span>Photoshop</span>
+                        <p>85%</p>
+                    </div>
+                </div>
+                <div class="g">
+                    <img src="/portfolio/img/illust.png" alt="">
+                    <div class="per">
+                        <span>Illustrator</span>
+                        <p>85%</p>
+                    </div>
+                </div>
+            </div>
+
+            </section>
+
+
+            <section class="section3 project">
+                <h2>PROJECT</h2>
+                <div class="container">
+                    <div class="swiper left">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide one"><a href="#" target="_blank"><img src="/portfolio/img/project1.JPG" alt="청와대, 국민 품으로"></a></div>
+                            <div class="swiper-slide two"><a href="#" target="_blank"><img src="/portfolio/img/project2.JPG" alt="청와대, 국민 품으로"></a></div>
+                            <div class="swiper-slide three"><a href="#" target="_blank"><img src="/portfolio/img/project3.JPG" alt="청와대, 국민 품으로"></a></div>
+                            <div class="swiper-slide four"><a href="#" target="_blank"><img src="/portfolio/img/project4.JPG" alt="청와대, 국민 품으로"></a></div>
+                        </diV>
+                        
+                    </div>
+
+                    <div class="right">
+                                <div class="info">
+                                    <div class="top">
+                                       <div class="title">
+                                        <h3>청와대, 국민 품으로</h3>
+                                        <div class="subtit">
+                                            <h3>리디자인</h3>
+                                            <span>반응형</span>
+                                        </div>
+                                       </div> 
+                                       <div class="tag">
+                                        <a href="#">#Main</a>
+                                        <a href="#">#Sub1~6</a>
+                                        <a href="#">#Reservation1~3</a>
+                                       </div>
+                                       <p>새로운 정부가 들어섬과 동시에 국민들에게 개방된
+                                          청와대, 기존 홈페이지 본래의 디자인 컨셉은 지키되
+                                          레이아웃, 페이지 재구성 등을 통해 홈페이지에 많은 연령층이 
+                                          좀 더 편안하게 접근할 수 있도록 만들었습니다.
+                                        </p>
+                                    </div>
+                         
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section4">
+                <div class="end">
+                    <h5>부족한 저의 포트폴리오를 끝까지 봐주셔서 감사합니다.<br>궁금한 점이 있으시면 연락 주시기 바랍니다.</h5>
+                    <span>&#128512;</span>
+                </div>
+                <div class="call">
+                    <a href="#">uuuka3459@gmail.com</a>
+                    <a href="tel:01066702883">call</a>
+                </div>
+            </section>
+           
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+        <script src="/portfolio/js/portpolio.js"></script>
+    </body>
+</html>    
